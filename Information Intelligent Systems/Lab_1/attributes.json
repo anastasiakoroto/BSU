@@ -1,0 +1,109 @@
+[
+  {
+    "key": "At 11 y.o. you received a strange letter",
+    "values":
+    [
+      "Yes", "No"
+    ]
+  },
+  {
+    "key": "You was born in Europe",
+    "values":
+    [
+      "Yes", "No"
+    ]
+  },
+  {
+    "key": "Folk",
+    "values":
+    [
+      "Wizard", "Muggle", "No-Maj"
+    ]
+  },
+  {
+    "key": "You have really annoying dad, thin mother and cousin-the-magician with a troubled past",
+    "values":
+    [
+      "Yes", "No"
+    ]
+  },
+  {
+    "key": "You have your own bakery",
+    "values":
+    [
+      "Yes", "No"
+    ]
+  },
+  {
+    "key": "Faculty",
+    "values":
+    [
+      "Griffindor", "Slytherin", "Ravenclaw", "Hufflepuff"
+    ]
+  },
+  {
+    "key": "Hair",
+    "values":
+    [
+      "Brown", "Red", "Blond"
+    ]
+  },
+  {
+    "key": "You have scar",
+    "values":
+    [
+      "Yes", "No"
+    ]
+  },
+  {
+    "key": "You've known Parseltongue since you were born",
+    "values":
+    [
+      "Yes", "No"
+    ]
+  },
+  {
+    "key": "You want to be a queen",
+    "values":
+    [
+      "Yes", "No"
+    ]
+  },
+  {
+    "key": "Evil",
+    "values":
+    [
+      "Yes", "No"
+    ]
+  },
+  {
+    "key": "You're older than Harry Potter",
+    "values":
+    [
+      "Yes", "No"
+    ]
+  },
+  {
+    "key": "Actually you're a vampire pretending to be a Legilimens",
+    "values":
+    [
+      "Yes", "No"
+    ]
+  },
+   {
+    "key": "Smart",
+    "values":
+    [
+      "Yes", "No"
+    ]
+  },
+  {
+    "key": "Person",
+    "values":
+    [
+      "Dudley Dursley", "Anyone except Dudley Dursley", "Jacob Kowalski", "Granny Kowalski", "Hermione Granger",
+      "Ron Weasley", "Cormac McLaggen", "Cersei GET OUT!", "Tom Marvolo Riddle", "Draco Malfoy", "Severus Snape",
+      "Harry Potter", "Albus Dumbledore", "Cedric Diggory", "Newt Scamander"
+    ]
+  }
+]

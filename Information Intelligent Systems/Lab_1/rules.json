@@ -1,0 +1,480 @@
+[
+  {
+    "if":
+    [
+      {
+        "attribute": "At 11 y.o. you received a strange letter",
+        "value": "Yes"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Folk",
+      "value": "Wizard"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "At 11 y.o. you received a strange letter",
+        "value": "No"
+      },
+      {
+        "attribute": "You was born in Europe",
+        "value": "Yes"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Folk",
+      "value": "Muggle"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "At 11 y.o. you received a strange letter",
+        "value": "No"
+      },
+      {
+        "attribute": "You was born in Europe",
+        "value": "No"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Folk",
+      "value": "No-Maj"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Muggle"
+      },
+      {
+        "attribute": "You have really annoying dad, thin mother and cousin-the-magician with a troubled past",
+        "value": "Yes"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Dudley Dursley"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Muggle"
+      },
+      {
+        "attribute": "You have really annoying dad, thin mother and cousin-the-magician with a troubled past",
+        "value": "No"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Anyone except Dudley Dursley"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "No-Maj"
+      },
+      {
+        "attribute": "You have your own bakery",
+        "value": "Yes"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Jacob Kowalski"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "No-Maj"
+      },
+      {
+        "attribute": "You have your own bakery",
+        "value": "No"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Granny Kowalski"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Griffindor"
+      },
+      {
+        "attribute": "Hair",
+        "value": "Red"
+      },
+      {
+        "attribute": "Smart",
+        "value": "Yes"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Hermione Granger"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Griffindor"
+      },
+      {
+        "attribute": "Hair",
+        "value": "Red"
+      },
+      {
+        "attribute": "Smart",
+        "value": "No"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Ron Weasley"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Griffindor"
+      },
+      {
+        "attribute": "Hair",
+        "value": "Blond"
+      },
+      {
+        "attribute": "You want to be a queen",
+        "value": "No"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Cormac McLaggen"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Griffindor"
+      },
+      {
+        "attribute": "Hair",
+        "value": "Blond"
+      },
+      {
+        "attribute": "You want to be a queen",
+        "value": "Yes"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Cersei GET OUT!"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Slytherin"
+      },
+      {
+        "attribute": "Evil",
+        "value": "Yes"
+      },
+      {
+        "attribute": "You've known Parseltongue since you were born",
+        "value": "Yes"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Tom Marvolo Riddle"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Slytherin"
+      },
+      {
+        "attribute": "Evil",
+        "value": "Yes"
+      },
+      {
+        "attribute": "You've known Parseltongue since you were born",
+        "value": "No"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Draco Malfoy"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Slytherin"
+      },
+      {
+        "attribute": "Evil",
+        "value": "No"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Severus Snape"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Griffindor"
+      },
+      {
+        "attribute": "Hair",
+        "value": "Brown"
+      },
+      {
+        "attribute": "You have scar",
+        "value": "Yes"
+      },
+      {
+        "attribute": "You've known Parseltongue since you were born",
+        "value": "Yes"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Harry Potter"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Griffindor"
+      },
+      {
+        "attribute": "Hair",
+        "value": "Brown"
+      },
+      {
+        "attribute": "You have scar",
+        "value": "Yes"
+      },
+      {
+        "attribute": "You've known Parseltongue since you were born",
+        "value": "No"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Albus Dumbledore"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Hufflepuff"
+      },
+      {
+        "attribute": "You're older than Harry Potter",
+        "value": "Yes"
+      },
+      {
+        "attribute": "Actually you're a vampire pretending to be a Legilimens",
+        "value": "Yes"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Cedric Diggory"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Hufflepuff"
+      },
+      {
+        "attribute": "You're older than Harry Potter",
+        "value": "Yes"
+      },
+      {
+        "attribute": "Actually you're a vampire pretending to be a Legilimens",
+        "value": "No"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Newt Scamander"
+    }
+  },
+  {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Hufflepuff"
+      },
+      {
+        "attribute": "You're older than Harry Potter",
+        "value": "No"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Justin Finch-Fletchley"
+    }
+  },
+    {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Griffindor"
+      },
+      {
+        "attribute": "Hair",
+        "value": "Brown"
+      },
+      {
+        "attribute": "You have scar",
+        "value": "No"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Sirius Black"
+    }
+  },
+    {
+    "if":
+    [
+      {
+        "attribute": "Folk",
+        "value": "Wizard"
+      },
+      {
+        "attribute": "Faculty",
+        "value": "Ravenclaw"
+      }
+    ],
+    "then":
+    {
+      "attribute": "Person",
+      "value": "Luna Lovegood"
+    }
+  }
+]
