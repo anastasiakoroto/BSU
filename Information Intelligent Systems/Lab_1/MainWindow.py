@@ -92,9 +92,9 @@ class MainWindow(QtWidgets.QMainWindow):
                     if inside_voc[i] == inside_voc[-1]:
                         self.answers_list.append(user_answer)
                         error = False
-                        for i in range(inside_length):
-                            inside_ans = inside_voc[i]['value']
-                            if inside_ans != self.answers_list[i]:
+                        for j in range(inside_length):
+                            inside_ans = inside_voc[j]['value']
+                            if inside_ans != self.answers_list[j]:
                                 error = True
                                 break
                         if error is True:
